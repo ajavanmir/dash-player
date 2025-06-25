@@ -1,0 +1,36 @@
+<!--
+Copyright amir javanmir
+Released on: June 25, 2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASH Video Player</title>
+    <script src="./js/dash.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <div id="videoContainer">
+        <video controls width="800" height="450" id="videoPlayer"></video>
+        <div id="qualityControls">
+            <div id="qualityInfo">Current Quality: <span id="currentQuality">Loading...</span></div>
+            <div id="qualityButtons">
+                <button id="autoQuality" data-res="auto">Automatic</button>
+                <button id="lowQuality" data-res="low">Low quality</button>
+                <button id="mediumQuality" data-res="medium">Average quality</button>
+                <button id="highQuality" data-res="high">High quality</button>
+            </div>
+            <div id="availableQualities">Available qualities: <span id="qualityList">Loading...</span></div>
+        </div>
+        <div id="networkInfo">
+            <div>Network status: <span id="networkStatus">Checking...</span></div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
