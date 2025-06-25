@@ -1,8 +1,4 @@
-# dash-player
-
 # DASH Video Player - Adaptive Streaming Player
-
-![DASH Player Screenshot](demo-screenshot.png) <!-- Add a screenshot if available -->
 
 A responsive DASH video player with adaptive bitrate streaming and manual quality selection, built with dash.js.
 
@@ -87,21 +83,6 @@ Modify the CSS variables in `style.css`:
 - Chrome, Firefox, Safari, Edge (latest versions)
 - Requires MSE (Media Source Extensions) support
 - Mobile browsers supported
-
-## License
-[MIT License](LICENSE)
-
-## Demo
-See live demo: [https://your-demo-url.com](https://your-demo-url.com)
-
-## Contributing
-Contributions are welcome! Please open an issue to discuss your changes before submitting a pull request.
-
-## Roadmap
-- [ ] Add keyboard shortcuts
-- [ ] Implement subtitle support
-- [ ] Add playback speed control
-- [ ] Add more comprehensive error handling
 
 ## Troubleshooting
 **Problem:** Video doesn't play  
